@@ -1,0 +1,123 @@
+*{
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        margin:0%;
+        min-height: 100vh;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: yellow;
+        color: goldenrod;
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.75)), url("jackson\ 3.jpg");
+        background-size: 85% auto; 
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .barra-navegacion {
+    background-color:rgba(10, 10, 10, 0.85); /* Color de la franja de fondo */
+    display: flex;
+    justify-content: space-between; /* Manda el título a la izquierda y el menú a la derecha */
+    align-items: center; /* Los alinea exactamente a la misma altura verticalmente */
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.barra-navegacion h1 {
+    color: #D4AF37; /* Color del texto "El Rey del Pop" en la barra */
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.barra-navegacion nav a {
+    color: #E0E0E0; /* Color de los enlaces del menú */
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+ 
+.barra-navegacion nav a:hover {
+    text-decoration: underline dashed #F8F9FA;
+}
+    .logo-izq, .logo-der {
+    width: 120px;
+    height: auto;
+    margin-top: 10px; 
+}
+    .encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+    .contenido {
+    text-align: center;
+    flex: 1;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+h1 {
+    font-size: 2em;
+    text-shadow: 2px 2px 6px black;
+}
+p {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-shadow: 2px 2px 5px black;
+    margin: 10px 0;
+}
+.cuadro-contenido{
+    width: 450px;
+    margin: 40px auto;
+    padding: 15px 25px 25px;
+    text-align: left;
+    background-color: rgba(10, 20, 20, 0.85);
+    border: 8px dotted #fff3b0;
+    border-radius: 6px;
+}
+.cuadro-contenido h2{
+    margin: 10px 0 15px;
+    padding-bottom: 12px;
+    font-family: Arial Black, Arial, sans-serif;
+    font-size: 2em;
+    color: #ff3366;
+    border-bottom: 3px solid #f5c518;
+}
+.principal{
+    list-style: none;
+    padding: 0;
+}
+.principal > li::before {
+    content: "🎤 ";
+}
+
+.principal > li > a {
+    font-family: Ravie, Impact, fantasy;
+    font-size: 1.6em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.subtemas {
+    list-style: none;
+    padding-left: 35px;
+    font-family: Ravie, Impact, fantasy;
+    color: #ffffff;
+}
+
+.subtemas li::before {
+    content: "⭐ ";
+    
+    
+}
+.cuadro-contenido a:hover {
+    color: #f5c518;
+}
+
+    
